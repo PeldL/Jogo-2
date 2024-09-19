@@ -8,6 +8,8 @@ public class ControladorDoJogador : MonoBehaviour
     public Rigidbody2D oRigidbody2D;
 
 
+    public GameObject laserDoJogardor;
+
     public float velocidadeDaNave;
 
     private Vector2 teclasApertadas;

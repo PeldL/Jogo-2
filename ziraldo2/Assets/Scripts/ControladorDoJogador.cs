@@ -10,7 +10,16 @@ public class ControladorDoJogador : MonoBehaviour
 
     public GameObject laserDoJogardor;
 
+
+    public Transform localDoDisparoUnico;
+
+
+
     public float velocidadeDaNave;
+
+
+    public bool temLaserDuplo;
+
 
     private Vector2 teclasApertadas;
 
@@ -18,7 +27,7 @@ public class ControladorDoJogador : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        temLaserDuplo = false;
     }
 
     // Update is called once per frame
@@ -35,6 +44,21 @@ public class ControladorDoJogador : MonoBehaviour
         oRigidbody2D.velocity = teclasApertadas.normalized * velocidadeDaNave;
     }
 
+
+
+    private void AtirarLaser()
+    {
+        if (Input.GetButtonDown("Fire1"))
+        {
+            if (temLaserDuplo == false)
+            {
+
+                Instantiate(laserDoJogardor, localDoDisparoUnico.position, localDoDisparoUnico.rotation);
+            } 
+
+        }
+
+    }
 
 
 }

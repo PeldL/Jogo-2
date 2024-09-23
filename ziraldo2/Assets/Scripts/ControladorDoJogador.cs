@@ -34,6 +34,7 @@ public class ControladorDoJogador : MonoBehaviour
     void Update()
     {
         MovimentarJogador();
+        AtirarLaser();
     }
 
 
@@ -54,7 +55,7 @@ public class ControladorDoJogador : MonoBehaviour
             {
 
                 Instantiate(laserDoJogardor, localDoDisparoUnico.position, localDoDisparoUnico.rotation);
-            } 
+            }
 
         }
 
@@ -62,3 +63,6 @@ public class ControladorDoJogador : MonoBehaviour
 
 
 }
+
+
+

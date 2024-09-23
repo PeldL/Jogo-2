@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5157466518975639230}
   - component: {fileID: 5157466518975639231}
   - component: {fileID: 5157466518975639224}
+  - component: {fileID: -5477245791727135108}
   m_Layer: 0
   m_Name: Laser do Jogador
   m_TagString: Untagged
@@ -101,3 +102,16 @@ CapsuleCollider2D:
   m_Offset: {x: -0.003945112, y: 0.015780509}
   m_Size: {x: 0.3525734, y: 0.6574943}
   m_Direction: 0
+--- !u!114 &-5477245791727135108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5157466518975639225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a711779bfd9e8964e9a17f404a17e367, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidadeDoLaser: 10

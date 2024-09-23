@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 6609276018224414836}
   - component: {fileID: 6609276018224414839}
   - component: {fileID: 6609276018224414838}
+  - component: {fileID: 7192255183354608710}
+  - component: {fileID: -4744011750575807182}
   m_Layer: 0
   m_Name: Laser do Inimigo Verde
   m_TagString: Untagged
@@ -101,3 +103,29 @@ CircleCollider2D:
   m_Offset: {x: -0.0015966892, y: -0.0063865185}
   serializedVersion: 2
   m_Radius: 0.324018
+--- !u!114 &7192255183354608710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6609276018224414841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8c6cf534348287448e9dba1a281efd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidadeDoLaser: 10
+--- !u!114 &-4744011750575807182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6609276018224414841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47039460124ee6b44a5c77f01b74e721, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tempoDeVida: 2.5

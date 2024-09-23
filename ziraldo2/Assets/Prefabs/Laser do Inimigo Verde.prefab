@@ -116,6 +116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidadeDoLaser: 10
+  danoParaDar: 2
 --- !u!114 &-4744011750575807182
 MonoBehaviour:
   m_ObjectHideFlags: 0

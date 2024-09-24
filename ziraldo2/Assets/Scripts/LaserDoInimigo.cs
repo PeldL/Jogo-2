@@ -25,7 +25,7 @@ public class LaserDoInimigo : MonoBehaviour
         transform.Translate(Vector3.up * velocidadeDoLaser * Time.deltaTime);
     }
 
-    void OntriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {

@@ -12,6 +12,10 @@ public class Inimigos : MonoBehaviour
 
     public float velocidadeDoInimigo;
 
+    public float vidaMaximaDoInimigo;
+
+    public float vidaAtualDoInimigo;
+
     public float tempoMaximoEntreOsLasers;
 
     public float tempoAtualDosLasers;
@@ -22,7 +26,7 @@ public class Inimigos : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        vidaAtualDoInimigo = vidaMaximaDoInimigo;
     }
 
     // Update is called once per frame
@@ -55,5 +59,25 @@ public class Inimigos : MonoBehaviour
 
 
     }
+
+
+    public void MachucarInimigo(int danoParaReceber)
+    {
+        vidaAtualDoInimigo -=danoParaReceber;
+
+        if(vidaAtualDoInimigo <= 0)
+        {
+            Destroy(this.gameObject);
+
+        }
+
+
+
+
+    }
+
+
+
+
 
 }

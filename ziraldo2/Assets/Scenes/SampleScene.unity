@@ -226,7 +226,7 @@ GameObject:
   - component: {fileID: 511305816}
   m_Layer: 0
   m_Name: Inimigo Roxo
-  m_TagString: Untagged
+  m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -245,7 +245,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   laserDoInimigo: {fileID: 0}
   localDoDisparo: {fileID: 0}
-  velocidadeDoInimigo: 15
+  velocidadeDoInimigo: 0
+  vidaMaximaDoInimigo: 0
+  vidaAtualDoInimigo: 0
   tempoMaximoEntreOsLasers: 0
   tempoAtualDosLasers: 0
   inimigoAtirador: 0
@@ -452,7 +454,7 @@ GameObject:
   - component: {fileID: 719405442}
   m_Layer: 0
   m_Name: Inimigo Verde
-  m_TagString: Untagged
+  m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -472,6 +474,8 @@ MonoBehaviour:
   laserDoInimigo: {fileID: 6609276018224414841, guid: 8eabc998a7b6ab44ea9d249d5aa400d4, type: 3}
   localDoDisparo: {fileID: 1993098096}
   velocidadeDoInimigo: 8
+  vidaMaximaDoInimigo: 4
+  vidaAtualDoInimigo: 0
   tempoMaximoEntreOsLasers: 0.5
   tempoAtualDosLasers: 0
   inimigoAtirador: 1
@@ -810,7 +814,7 @@ GameObject:
   - component: {fileID: 1547591124}
   m_Layer: 0
   m_Name: Inimigo Azul
-  m_TagString: Untagged
+  m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -935,6 +939,8 @@ MonoBehaviour:
   laserDoInimigo: {fileID: 5961446339668432301, guid: c710b2b04e22fd7408835d06e1a0518f, type: 3}
   localDoDisparo: {fileID: 1717298958}
   velocidadeDoInimigo: 10
+  vidaMaximaDoInimigo: 4
+  vidaAtualDoInimigo: 0
   tempoMaximoEntreOsLasers: 1
   tempoAtualDosLasers: 0
   inimigoAtirador: 1

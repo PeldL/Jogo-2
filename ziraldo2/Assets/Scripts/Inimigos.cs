@@ -16,6 +16,10 @@ public class Inimigos : MonoBehaviour
 
     public float vidaAtualDoInimigo;
 
+
+    public int pontosParaDar;
+
+
     public float tempoMaximoEntreOsLasers;
 
     public float tempoAtualDosLasers;
@@ -67,6 +71,8 @@ public class Inimigos : MonoBehaviour
 
         if(vidaAtualDoInimigo <= 0)
         {
+
+            GameManager.instance.AumentarPontuacao(pontosParaDar);
             Destroy(this.gameObject);
 
         }

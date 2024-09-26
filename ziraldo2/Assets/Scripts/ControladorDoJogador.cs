@@ -13,7 +13,13 @@ public class ControladorDoJogador : MonoBehaviour
 
     public Transform localDoDisparoUnico;
 
+    public Transform localDoDisparoDaEsquerda;
 
+    public Transform localDoDisparoDaDireita;
+
+    public float tempoMaximoDosLasersDuplos;
+
+    public float tempoAtualDosLasersDuplos;
 
     public float velocidadeDaNave;
 
@@ -28,6 +34,8 @@ public class ControladorDoJogador : MonoBehaviour
     void Start()
     {
         temLaserDuplo = false;
+
+        tempoAtualDosLasersDuplos = tempoMaximoDosLasersDuplos;
     }
 
     // Update is called once per frame
@@ -35,6 +43,18 @@ public class ControladorDoJogador : MonoBehaviour
     {
         MovimentarJogador();
         AtirarLaser();
+
+        if ( temLaserDuplo == true)
+        {
+            tempoAtualDosLasersDuplos -= Time.deltaTime;
+
+            if(tempoAtualDosLasersDuplos <= 0)
+            {
+                DesativarLaserDuplo();
+            }
+
+
+        }
     }
 
 
@@ -46,7 +66,6 @@ public class ControladorDoJogador : MonoBehaviour
     }
 
 
-
     private void AtirarLaser()
     {
         if (Input.GetButtonDown("Fire1"))
@@ -56,12 +75,20 @@ public class ControladorDoJogador : MonoBehaviour
 
                 Instantiate(laserDoJogardor, localDoDisparoUnico.position, localDoDisparoUnico.rotation);
             }
-
+            else
+            {
+                Instantiate(laserDoJogardor, localDoDisparoDaEsquerda.position, localDoDisparoDaEsquerda.rotation);
+                Instantiate(laserDoJogardor, localDoDisparoDaDireita.position, localDoDisparoDaDireita.rotation);
+            }
         }
 
     }
 
-
+    private void DesativarLaserDuplo()
+    {
+        temLaserDuplo = false;
+        tempoAtualDosLasersDuplos = tempoMaximoDosLasersDuplos;
+    }
 }
 
 

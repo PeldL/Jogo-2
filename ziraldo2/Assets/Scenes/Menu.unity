@@ -567,6 +567,71 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 140517266}
   m_CullTransparentMesh: 1
+--- !u!1001 &272156893
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1760417369}
+    m_Modifications:
+    - target: {fileID: 2752548133860241123, guid: 21930b4da94442b429480b5cb83ae4ba, type: 3}
+      propertyPath: m_Name
+      value: Z2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752548133860241126, guid: 21930b4da94442b429480b5cb83ae4ba, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752548133860241126, guid: 21930b4da94442b429480b5cb83ae4ba, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.10636894
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752548133860241126, guid: 21930b4da94442b429480b5cb83ae4ba, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.10636894
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752548133860241126, guid: 21930b4da94442b429480b5cb83ae4ba, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.901152
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752548133860241126, guid: 21930b4da94442b429480b5cb83ae4ba, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.9535993
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752548133860241126, guid: 21930b4da94442b429480b5cb83ae4ba, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752548133860241126, guid: 21930b4da94442b429480b5cb83ae4ba, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752548133860241126, guid: 21930b4da94442b429480b5cb83ae4ba, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752548133860241126, guid: 21930b4da94442b429480b5cb83ae4ba, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752548133860241126, guid: 21930b4da94442b429480b5cb83ae4ba, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752548133860241126, guid: 21930b4da94442b429480b5cb83ae4ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752548133860241126, guid: 21930b4da94442b429480b5cb83ae4ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752548133860241126, guid: 21930b4da94442b429480b5cb83ae4ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 21930b4da94442b429480b5cb83ae4ba, type: 3}
 --- !u!1 &297642917
 GameObject:
   m_ObjectHideFlags: 0
@@ -973,7 +1038,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1089156478703049838, guid: 78dd9aa5acec6e748bff07d6e76568cf, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1089156478703049838, guid: 78dd9aa5acec6e748bff07d6e76568cf, type: 3}
       propertyPath: m_LocalScale.x
@@ -2526,6 +2591,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1181856639}
   m_CullTransparentMesh: 1
+--- !u!4 &1410071918 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2752548133860241126, guid: 21930b4da94442b429480b5cb83ae4ba, type: 3}
+  m_PrefabInstance: {fileID: 272156893}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1458099032
 GameObject:
   m_ObjectHideFlags: 0
@@ -3417,6 +3487,7 @@ Transform:
   m_LocalScale: {x: 101.53341, y: 101.53341, z: 108}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1410071918}
   - {fileID: 974017014}
   m_Father: {fileID: 736780964}
   m_RootOrder: 0

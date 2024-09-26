@@ -147,7 +147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 173959115}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.98, z: 0}
+  m_LocalPosition: {x: 0, y: 0.708, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -191,6 +191,68 @@ RectTransform:
   m_AnchoredPosition: {x: 0.392807, y: 0.1996994}
   m_SizeDelta: {x: -254.487, y: -26.1043}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &403533049
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 403533050}
+  m_Layer: 0
+  m_Name: Laser do Lado da Direita
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &403533050
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403533049}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.38, y: 0.627, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1268766511}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &465580650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 465580651}
+  m_Layer: 0
+  m_Name: Laser do Lado da Esquerda
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &465580651
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465580650}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.38, y: 0.627, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1268766511}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &488431227
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -907,6 +969,8 @@ Transform:
   m_Children:
   - {fileID: 173959116}
   - {fileID: 8144452721386786685}
+  - {fileID: 465580651}
+  - {fileID: 403533050}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
@@ -925,8 +989,12 @@ MonoBehaviour:
   oRigidbody2D: {fileID: 1268766508}
   laserDoJogardor: {fileID: 5157466518975639225, guid: 8d10ca76a573a3a45a29117aa9884e5b, type: 3}
   localDoDisparoUnico: {fileID: 173959116}
+  localDoDisparoDaEsquerda: {fileID: 465580651}
+  localDoDisparoDaDireita: {fileID: 403533050}
+  tempoMaximoDosLasersDuplos: 10
+  tempoAtualDosLasersDuplos: 0
   velocidadeDaNave: 7
-  temLaserDuplo: 0
+  temLaserDuplo: 1
 --- !u!114 &1268766513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -942,7 +1010,7 @@ MonoBehaviour:
   barraDeVidaDoJogador: {fileID: 1389380995}
   escudoDoJogador: {fileID: 8144452721386786680}
   vidaMaximaDoJogador: 20
-  vidaAtualDoJogador: 20
+  vidaAtualDoJogador: 0
   vidaMaximaDoEscudo: 5
   vidaAtualDoEscudo: 5
   temEscudo: 1

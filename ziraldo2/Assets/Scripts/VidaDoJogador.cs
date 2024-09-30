@@ -27,6 +27,8 @@ public class VidaDoJogador : MonoBehaviour
     void Start()
     {
         vidaAtualDoJogador = vidaMaximaDoJogador;
+        vidaAtualDoEscudo = vidaMaximaDoEscudo;
+
         barraDeVidaDoJogador.maxValue = vidaMaximaDoJogador;
         barraDeVidaDoJogador.value = vidaAtualDoJogador;
 
@@ -49,6 +51,19 @@ public class VidaDoJogador : MonoBehaviour
         temEscudo = true;
     }
 
+    public void GanharVida(int vidaParaReceber)
+    {
+        if(vidaAtualDoJogador + vidaParaReceber <= vidaMaximaDoJogador)
+        {
+            vidaAtualDoJogador += vidaParaReceber;
+        }
+        else
+        {
+            vidaAtualDoJogador = vidaMaximaDoJogador;
+        }
+
+        barraDeVidaDoJogador.value = vidaAtualDoJogador;
+    }
 
     public void MachucarJogador(int danoParaReceber)
     {

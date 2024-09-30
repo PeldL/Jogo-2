@@ -27,7 +27,15 @@ public class ItensColetaveis : MonoBehaviour
 
             if (itemDeLaserDuplo == true)
             {
+                other.gameObject.GetComponent<ControladorDoJogador>().temLaserDuplo = false;
+
+
+                other.gameObject.GetComponent<ControladorDoJogador>().tempoAtualDosLasersDuplos = other.gameObject.GetComponent<ControladorDoJogador>().tempoMaximoDosLasersDuplos;
+
+
                 other.gameObject.GetComponent<ControladorDoJogador>().temLaserDuplo = true;
+
+             
             }
 
             if (itemDeVida == true)

@@ -266,6 +266,7 @@ GameObject:
   - component: {fileID: 511305818}
   - component: {fileID: 511305817}
   - component: {fileID: 511305816}
+  - component: {fileID: 511305821}
   m_Layer: 0
   m_Name: Inimigo Roxo
   m_TagString: Inimigo
@@ -288,7 +289,7 @@ MonoBehaviour:
   laserDoInimigo: {fileID: 0}
   localDoDisparo: {fileID: 0}
   itemParaDropar: {fileID: 5012456251772521721, guid: 32bb99dd4d5714940ab4f7703d695c74, type: 3}
-  velocidadeDoInimigo: 15
+  velocidadeDoInimigo: 0
   vidaMaximaDoInimigo: 1
   vidaAtualDoInimigo: 0
   pontosParaDar: 5
@@ -374,7 +375,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d7350ef49a65bf54698f0f8968ff259e, type: 3}
+  m_Sprite: {fileID: 2041176682, guid: f67a80a362ba8e14facac1b07fd117e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 1
@@ -392,14 +393,34 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 511305815}
-  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 6.215, y: -2.89, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.9989722, y: 0.017529758, z: -0.041793678, w: -0.0007333847}
+  m_LocalPosition: {x: 6.4, y: -2.79, z: 0.02}
+  m_LocalScale: {x: 0.5539584, y: 0.5852682, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+  m_LocalEulerAnglesHint: {x: 0, y: -175.209, z: -182.011}
+--- !u!95 &511305821
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511305815}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3f5542a733decd943bf149e04c53f769, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -610,7 +631,7 @@ MonoBehaviour:
   laserDoInimigo: {fileID: 6609276018224414841, guid: 8eabc998a7b6ab44ea9d249d5aa400d4, type: 3}
   localDoDisparo: {fileID: 1993098096}
   itemParaDropar: {fileID: 4925677548638751336, guid: bd12252d53dc35e4181d02a6a268ed8a, type: 3}
-  velocidadeDoInimigo: 7
+  velocidadeDoInimigo: 0
   vidaMaximaDoInimigo: 4
   vidaAtualDoInimigo: 0
   pontosParaDar: 15
@@ -1240,7 +1261,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: ae014199e504fd948b5c78e762338d25, type: 3}
+    m_Font: {fileID: 12800000, guid: bb011b1fb0346284ca522aecf35a79f0, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -1477,7 +1498,7 @@ MonoBehaviour:
   laserDoInimigo: {fileID: 5961446339668432301, guid: c710b2b04e22fd7408835d06e1a0518f, type: 3}
   localDoDisparo: {fileID: 1717298958}
   itemParaDropar: {fileID: 756763485671662847, guid: 86f8380a29a4a9e4fa12a37ec3676660, type: 3}
-  velocidadeDoInimigo: 10
+  velocidadeDoInimigo: 0
   vidaMaximaDoInimigo: 4
   vidaAtualDoInimigo: 0
   pontosParaDar: 10

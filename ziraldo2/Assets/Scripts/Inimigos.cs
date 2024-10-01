@@ -8,7 +8,7 @@ public class Inimigos : MonoBehaviour
 
 
     public Transform localDoDisparo;
-
+    public GameObject itemParaDropar;
 
     public float velocidadeDoInimigo;
 
@@ -19,6 +19,7 @@ public class Inimigos : MonoBehaviour
 
     public int pontosParaDar;
 
+    public int chanceParaDropar;
 
     public float tempoMaximoEntreOsLasers;
 
@@ -73,6 +74,15 @@ public class Inimigos : MonoBehaviour
         {
 
             GameManager.instance.AumentarPontuacao(pontosParaDar);
+
+            int numeroAleatorio = Random.Range(0, 100);
+
+            if(numeroAleatorio <= chanceParaDropar)
+            {
+                Instantiate(itemParaDropar, transform.position, Quaternion.Euler(0f, 0f, 0f));
+            }
+            
+
             Destroy(this.gameObject);
 
         }

@@ -266,7 +266,6 @@ GameObject:
   - component: {fileID: 511305818}
   - component: {fileID: 511305817}
   - component: {fileID: 511305816}
-  - component: {fileID: 511305821}
   m_Layer: 0
   m_Name: Inimigo Roxo
   m_TagString: Inimigo
@@ -310,9 +309,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0000001227835, y: 0.029982861}
+  m_Offset: {x: -0.17039703, y: -0.07758226}
   serializedVersion: 2
-  m_Radius: 0.7354724
+  m_Radius: 4.128605
 --- !u!50 &511305818
 Rigidbody2D:
   serializedVersion: 4
@@ -375,7 +374,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2041176682, guid: f67a80a362ba8e14facac1b07fd117e7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 770043695bf6a3c43931f7b8cd04088c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 1
@@ -394,33 +393,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 511305815}
   m_LocalRotation: {x: 0.9989722, y: 0.017529758, z: -0.041793678, w: -0.0007333847}
-  m_LocalPosition: {x: 6.4, y: -2.79, z: 0.02}
-  m_LocalScale: {x: 0.5539584, y: 0.5852682, z: 1}
+  m_LocalPosition: {x: 7.1933, y: -2.8926, z: 0.0415}
+  m_LocalScale: {x: 0.31025827, y: 0.30318496, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: -175.209, z: -182.011}
---- !u!95 &511305821
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 511305815}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3f5542a733decd943bf149e04c53f769, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -717,7 +696,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9fa6873d3c610b5469b1262b8afb7a4b, type: 3}
+  m_Sprite: {fileID: 1603512795, guid: 04728086af39ce44d86ae1ba4050fc33, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 1
@@ -1005,7 +984,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 90d2e04385a272c4198e997c2d2aefaa, type: 3}
+  m_Sprite: {fileID: 182372659, guid: 209b8c6e7d3c4b5479553d07440bf692, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1371,6 +1350,7 @@ GameObject:
   - component: {fileID: 1547591121}
   - component: {fileID: 1547591120}
   - component: {fileID: 1547591124}
+  - component: {fileID: 1547591125}
   m_Layer: 0
   m_Name: Inimigo Azul
   m_TagString: Inimigo
@@ -1391,9 +1371,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.015848408, y: -0.09014152}
+  m_Offset: {x: 0.47180146, y: 0.09686149}
   serializedVersion: 2
-  m_Radius: 1.0374706
+  m_Radius: 2.2247064
 --- !u!50 &1547591121
 Rigidbody2D:
   serializedVersion: 4
@@ -1456,7 +1436,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 45f9293884e0afc4ca5a2b1dd20ae9e0, type: 3}
+  m_Sprite: {fileID: 2041176682, guid: f67a80a362ba8e14facac1b07fd117e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 1
@@ -1474,15 +1454,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1547591119}
-  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 6.23, y: 3.06, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.99618065, y: -0.009387065, z: -0.0868062, w: 0.0008179798}
+  m_LocalPosition: {x: 6.518, y: 3.4698, z: 0.0379}
+  m_LocalScale: {x: 0.62193096, y: 0.6336, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1717298958}
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+  m_LocalEulerAnglesHint: {x: -0.187, y: 170.041, z: -181.063}
 --- !u!114 &1547591124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1506,6 +1486,26 @@ MonoBehaviour:
   tempoMaximoEntreOsLasers: 1
   tempoAtualDosLasers: 0
   inimigoAtirador: 1
+--- !u!95 &1547591125
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547591119}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2ba79bf3c206cef4e8074e49116ddb28, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1576023076
 GameObject:
   m_ObjectHideFlags: 0
@@ -1582,6 +1582,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1576023076}
   m_CullTransparentMesh: 1
+--- !u!1001 &1640105660
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2510290820260006905, guid: 12b09a5ec9899da4d99d305a3b34ed69, type: 3}
+      propertyPath: m_Name
+      value: "Cen\xE1rio do Jogo"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510290820260006908, guid: 12b09a5ec9899da4d99d305a3b34ed69, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510290820260006908, guid: 12b09a5ec9899da4d99d305a3b34ed69, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510290820260006908, guid: 12b09a5ec9899da4d99d305a3b34ed69, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510290820260006908, guid: 12b09a5ec9899da4d99d305a3b34ed69, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510290820260006908, guid: 12b09a5ec9899da4d99d305a3b34ed69, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510290820260006908, guid: 12b09a5ec9899da4d99d305a3b34ed69, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510290820260006908, guid: 12b09a5ec9899da4d99d305a3b34ed69, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510290820260006908, guid: 12b09a5ec9899da4d99d305a3b34ed69, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510290820260006908, guid: 12b09a5ec9899da4d99d305a3b34ed69, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510290820260006908, guid: 12b09a5ec9899da4d99d305a3b34ed69, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510290820260006908, guid: 12b09a5ec9899da4d99d305a3b34ed69, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 12b09a5ec9899da4d99d305a3b34ed69, type: 3}
 --- !u!1 &1697642974
 GameObject:
   m_ObjectHideFlags: 0
@@ -1792,7 +1849,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -602.5, y: -310}
+  m_AnchoredPosition: {x: -602.5, y: -257.5}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1744871665

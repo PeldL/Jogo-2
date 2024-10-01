@@ -695,7 +695,7 @@ MonoBehaviour:
   laserDoInimigo: {fileID: 6609276018224414841, guid: 8eabc998a7b6ab44ea9d249d5aa400d4, type: 3}
   localDoDisparo: {fileID: 1993098096}
   itemParaDropar: {fileID: 4925677548638751336, guid: bd12252d53dc35e4181d02a6a268ed8a, type: 3}
-  velocidadeDoInimigo: 10
+  velocidadeDoInimigo: 7
   vidaMaximaDoInimigo: 4
   vidaAtualDoInimigo: 0
   pontosParaDar: 15
@@ -2245,7 +2245,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1993098095}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.21999973, y: -2.14, z: -0.000000009673692}
+  m_LocalPosition: {x: 0.22, y: -2.65, z: -0}
   m_LocalScale: {x: 0.9999999, y: 0.9999997, z: 0.99999994}
   m_ConstrainProportionsScale: 0
   m_Children: []

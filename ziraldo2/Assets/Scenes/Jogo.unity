@@ -2102,6 +2102,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2510290820260006904, guid: 12b09a5ec9899da4d99d305a3b34ed69, type: 3}
+      propertyPath: velocidadedocenario
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 2510290820260006905, guid: 12b09a5ec9899da4d99d305a3b34ed69, type: 3}
       propertyPath: m_Name
       value: "Cen\xE1rio do Jogo"

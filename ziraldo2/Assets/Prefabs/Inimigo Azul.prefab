@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2984113810087308540}
   - component: {fileID: 2984113810087308541}
-  - component: {fileID: 9216655079104411958}
   m_Layer: 0
   m_Name: "urso anima\xE7\xE3o_0"
   m_TagString: Untagged
@@ -85,26 +84,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &9216655079104411958
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2984113810087308515}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 749dc1005c784ad4bac33a43f6875da1, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &2984113810608251841
 GameObject:
   m_ObjectHideFlags: 0
@@ -149,7 +128,7 @@ GameObject:
   - component: {fileID: 2984113811516152093}
   - component: {fileID: 2984113811516152092}
   - component: {fileID: 2984113811516152088}
-  - component: {fileID: 8270736195802768144}
+  - component: {fileID: 2984113811516152089}
   m_Layer: 0
   m_Name: Inimigo Azul
   m_TagString: Inimigo
@@ -286,7 +265,7 @@ MonoBehaviour:
   tempoMaximoEntreOsLasers: 1
   tempoAtualDosLasers: 0
   inimigoAtirador: 1
---- !u!95 &8270736195802768144
+--- !u!95 &2984113811516152089
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -296,7 +275,7 @@ Animator:
   m_GameObject: {fileID: 2984113811516152067}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f15427cfc81e17046870e2a4dcf95b98, type: 2}
+  m_Controller: {fileID: 9100000, guid: 2ba79bf3c206cef4e8074e49116ddb28, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

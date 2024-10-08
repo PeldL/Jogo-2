@@ -8,7 +8,13 @@ public class Inimigos : MonoBehaviour
 
 
     public Transform localDoDisparo;
+
+
     public GameObject itemParaDropar;
+
+
+    public GameObject efeitoDeExplosao;
+
 
     public float velocidadeDoInimigo;
 
@@ -18,6 +24,8 @@ public class Inimigos : MonoBehaviour
 
 
     public int pontosParaDar;
+
+    public int danoDaNave;
 
     public int chanceParaDropar;
 
@@ -100,7 +108,16 @@ public class Inimigos : MonoBehaviour
 
 
     }
+   void OnCollisionEnter2D(Collision2D collisioninfo)
+    {
+        if (collisioninfo.gameObject.CompareTag("Player"))
+        {
+            collisioninfo.gameObject.GetComponent<VidaDoJogador>().MachucarJogador(danoDaNave);
+            Instantiate(efeitoDeExplosao, transform.position, transform.rotation);
+            Destroy(this.gameObject);
 
+        }
+    }
 
 
 }

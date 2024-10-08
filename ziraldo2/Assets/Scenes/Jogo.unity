@@ -485,10 +485,12 @@ MonoBehaviour:
   laserDoInimigo: {fileID: 0}
   localDoDisparo: {fileID: 0}
   itemParaDropar: {fileID: 5012456251772521721, guid: 32bb99dd4d5714940ab4f7703d695c74, type: 3}
+  efeitoDeExplosao: {fileID: 0}
   velocidadeDoInimigo: 15
   vidaMaximaDoInimigo: 1
   vidaAtualDoInimigo: 0
   pontosParaDar: 5
+  danoDaNave: 4
   chanceParaDropar: 45
   tempoMaximoEntreOsLasers: 0
   tempoAtualDosLasers: 0
@@ -911,10 +913,12 @@ MonoBehaviour:
   laserDoInimigo: {fileID: 6609276018224414841, guid: 8eabc998a7b6ab44ea9d249d5aa400d4, type: 3}
   localDoDisparo: {fileID: 1993098096}
   itemParaDropar: {fileID: 4925677548638751336, guid: bd12252d53dc35e4181d02a6a268ed8a, type: 3}
+  efeitoDeExplosao: {fileID: 1098649702758256398, guid: a31f14d7d6c4dfa409aa8482ab68c6ae, type: 3}
   velocidadeDoInimigo: 7
   vidaMaximaDoInimigo: 4
   vidaAtualDoInimigo: 0
   pontosParaDar: 15
+  danoDaNave: 1
   chanceParaDropar: 30
   tempoMaximoEntreOsLasers: 0.5
   tempoAtualDosLasers: 0
@@ -956,7 +960,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 7
 --- !u!212 &719405445
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2104,10 +2108,12 @@ MonoBehaviour:
   laserDoInimigo: {fileID: 5961446339668432301, guid: c710b2b04e22fd7408835d06e1a0518f, type: 3}
   localDoDisparo: {fileID: 1717298958}
   itemParaDropar: {fileID: 756763485671662847, guid: 86f8380a29a4a9e4fa12a37ec3676660, type: 3}
+  efeitoDeExplosao: {fileID: 0}
   velocidadeDoInimigo: 8
   vidaMaximaDoInimigo: 4
   vidaAtualDoInimigo: 0
   pontosParaDar: 10
+  danoDaNave: 2
   chanceParaDropar: 24
   tempoMaximoEntreOsLasers: 1
   tempoAtualDosLasers: 0

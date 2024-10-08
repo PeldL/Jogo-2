@@ -602,7 +602,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -361.4868, y: 15}
+  m_AnchoredPosition: {x: -374, y: 114}
   m_SizeDelta: {x: 612.66, y: 54.33}
   m_Pivot: {x: 0.57217497, y: 0.5}
 --- !u!114 &161215050
@@ -1544,8 +1544,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -361.4868, y: 91}
-  m_SizeDelta: {x: 612.66, y: 54.33}
+  m_AnchoredPosition: {x: 44, y: -244}
+  m_SizeDelta: {x: 1383.72, y: 244.01}
   m_Pivot: {x: 0.57217497, y: 0.5}
 --- !u!114 &510433935
 MonoBehaviour:
@@ -1567,7 +1567,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'efeitos: '
+  m_text: 'efeitos: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbUNDRllkbHNiWGVWX3RuaFhBQUdONW9FRFNGUXxBQ3Jtc0ttQVNJMFhBN2gxWElhS0NKWlFGc3RtdmNhdVk0bC1kSTVVU05sNzNuNTFEd0lpVmRvSExxUnczeUc3R3ZWaWZGY0FERlJMZE1vYncwTWVlWFVmWGZfdldYQnhVMmhBYTJNVlYxTkpOZzJWQ05YSU9QRQ&q=https%3A%2F%2Fgithub.com%2FGabrielDev01%2Fassets_jogo_de_navinha_2D&v=GCmSm7a4eFc'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f1132396ebf158248a121d26887078aa, type: 2}
   m_sharedMaterial: {fileID: 9184859846307826694, guid: f1132396ebf158248a121d26887078aa, type: 2}
@@ -1594,8 +1594,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1817,7 +1817,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &599568153
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2151,7 +2151,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -361.4868, y: -63}
+  m_AnchoredPosition: {x: -368, y: 200}
   m_SizeDelta: {x: 612.66, y: 54.33}
   m_Pivot: {x: 0.57217497, y: 0.5}
 --- !u!114 &685446153
@@ -2866,7 +2866,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 539, y: -87}
+  m_AnchoredPosition: {x: 539, y: -132.42001}
   m_SizeDelta: {x: 312.54, y: 178.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &854610531
@@ -4575,9 +4575,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -361.4868, y: 181}
+  m_AnchoredPosition: {x: -368.22592, y: 31}
   m_SizeDelta: {x: 612.66, y: 54.33}
-  m_Pivot: {x: 0.57217497, y: 0.5}
+  m_Pivot: {x: 0.5611752, y: 0.5000002}
 --- !u!114 &1722139368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5341,7 +5341,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 539, y: -268}
+  m_AnchoredPosition: {x: 539, y: -310.84}
   m_SizeDelta: {x: 312.54, y: 178.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2109691001

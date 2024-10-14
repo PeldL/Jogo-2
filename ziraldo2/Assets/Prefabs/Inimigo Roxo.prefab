@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aacc0da5dc9d4ed489611f9272c95d8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  laserDoInimigo: {fileID: 0}
+  laserDoInimigo: {fileID: 5961446339668432301, guid: c710b2b04e22fd7408835d06e1a0518f, type: 3}
   localDoDisparo: {fileID: 0}
   itemParaDropar: {fileID: 5012456251772521721, guid: 32bb99dd4d5714940ab4f7703d695c74, type: 3}
   efeitoDeExplosao: {fileID: 1098649702758256398, guid: a31f14d7d6c4dfa409aa8482ab68c6ae, type: 3}
@@ -145,6 +145,7 @@ MonoBehaviour:
   vidaMaximaDoInimigo: 1
   vidaAtualDoInimigo: 0
   pontosParaDar: 5
+  danoDaNave: 0
   chanceParaDropar: 45
   tempoMaximoEntreOsLasers: 0
   tempoAtualDosLasers: 0

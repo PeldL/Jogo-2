@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
 
     public int pontuacaoAtual;
 
+  
+
 
    
     void Awake()
@@ -38,5 +40,5 @@ public class GameManager : MonoBehaviour
         textoDePontuacaoAtual.text = "PONTUAÇÃO: " + pontuacaoAtual;
     }
        
-
+    
 }

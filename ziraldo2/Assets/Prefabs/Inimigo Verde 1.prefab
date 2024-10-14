@@ -147,6 +147,7 @@ MonoBehaviour:
   vidaMaximaDoInimigo: 4
   vidaAtualDoInimigo: 0
   pontosParaDar: 15
+  danoDaNave: 0
   chanceParaDropar: 30
   tempoMaximoEntreOsLasers: 0.5
   tempoAtualDosLasers: 0

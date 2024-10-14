@@ -37,6 +37,7 @@ public class LaserDoJogador : MonoBehaviour
             other.gameObject.GetComponent<Inimigos>().MachucarInimigo(danoParaDar);
 
             Instantiate(impactoDoLaserDoJogador, transform.position, transform.rotation);
+            EfeitosSonoros.instance.somDeImpacto.Play();
 
             Destroy(this.gameObject);
         }

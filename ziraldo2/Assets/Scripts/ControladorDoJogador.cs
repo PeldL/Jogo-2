@@ -80,6 +80,8 @@ public class ControladorDoJogador : MonoBehaviour
                 Instantiate(laserDoJogardor, localDoDisparoDaEsquerda.position, localDoDisparoDaEsquerda.rotation);
                 Instantiate(laserDoJogardor, localDoDisparoDaDireita.position, localDoDisparoDaDireita.rotation);
             }
+
+            EfeitosSonoros.instance.somDoLazerDoJogaor.Play();
         }
 
     }

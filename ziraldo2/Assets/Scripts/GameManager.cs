@@ -57,5 +57,13 @@ public class GameManager : MonoBehaviour
         painelDeGameOver.SetActive(true);
         textoDePontuacaofinal.text = "PONTUAÇÃO: " + pontuacaoAtual;
 
+        if(pontuacaoAtual > PlayerPrefs.GetInt("HighScore"))
+        {
+            PlayerPrefs.SetInt("HighScore", pontuacaoAtual);
+
+        }
+
+        textoDeHighScore.text = "HIGHSCORE: " + PlayerPrefs.GetInt("HighScore");
     }
+
 }

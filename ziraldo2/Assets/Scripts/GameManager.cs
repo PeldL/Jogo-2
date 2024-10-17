@@ -7,6 +7,9 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
+
+    public AudioSource musicaDoJogo;
+    public AudioSource musicaDeGameOver;
     public Text textoDePontuacaoAtual;
     public GameObject painelDeGameOver;
     public Text textoDePontuacaofinal;
@@ -27,6 +30,9 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1f;
+        musicaDoJogo.Play();
+
         pontuacaoAtual = 0;  
         textoDePontuacaoAtual.text = "PONTUAÇÃO: " + pontuacaoAtual;
     }
@@ -44,6 +50,10 @@ public class GameManager : MonoBehaviour
     }
     public void GameOver()
     {
+        Time.timeScale = 0f;
+        musicaDoJogo.Stop();
+        musicaDeGameOver.Play();
+
         painelDeGameOver.SetActive(true);
         textoDePontuacaofinal.text = "PONTUAÇÃO: " + pontuacaoAtual;
 

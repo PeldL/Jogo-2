@@ -29,11 +29,13 @@ public class ControladorDoJogador : MonoBehaviour
 
     private Vector2 teclasApertadas;
 
+    public bool JogadorEstaVivo;
 
     // Start is called before the first frame update
     void Start()
     {
         temLaserDuplo = false;
+        JogadorEstaVivo = true;
 
         tempoAtualDosLasersDuplos = tempoMaximoDosLasersDuplos;
     }
@@ -42,7 +44,13 @@ public class ControladorDoJogador : MonoBehaviour
     void Update()
     {
         MovimentarJogador();
-        AtirarLaser();
+
+        if (JogadorEstaVivo == true)
+        {
+            AtirarLaser();
+
+        }
+       
 
         if ( temLaserDuplo == true)
         {

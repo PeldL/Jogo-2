@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6140952013946535924}
   - component: {fileID: 6441680878227347082}
+  - component: {fileID: -6493281534899318260}
+  - component: {fileID: -2501400799612839073}
   m_Layer: 0
   m_Name: Planeta 2_0
   m_TagString: Untagged
@@ -84,3 +86,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-6493281534899318260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9116735812668552761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecb38afd62eb6794f8e633499f9124c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidadeDoObjeto: 4
+--- !u!114 &-2501400799612839073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9116735812668552761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47039460124ee6b44a5c77f01b74e721, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tempoDeVida: 25

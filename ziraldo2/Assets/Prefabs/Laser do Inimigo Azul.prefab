@@ -116,7 +116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   impactoDoLazerDoInimigo: {fileID: 7164756251136258126, guid: 269747ae18c5fc140b1100508ee9f1b3, type: 3}
-  velocidadeDoLaser: 13
+  velocidadeDoLaser: 15
   danoParaDar: 1
 --- !u!114 &623556592482994766
 MonoBehaviour:
